@@ -1,0 +1,9 @@
+---
+- hosts: vagrant
+  sudo: yes
+  user: vagrant
+  roles:
+    - common
+    - mysql55
+    - imagemagick
+    - rbenv

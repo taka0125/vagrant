@@ -1,0 +1,5 @@
+- name: install ImageMagick
+  apt: name={{item}} state=installed
+  with_items:
+    - libmagickwand-dev 
+    - imagemagick
